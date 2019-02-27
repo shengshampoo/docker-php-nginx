@@ -33,6 +33,14 @@ http {
 
 ```
 
+### Usage:
+
+```shell
+mkdir -p /var/www/html/tmp
+docker build -t docker-php-nginx .
+docker run --name docker-php-nginx -d -p 80:80 -v /var/www/html:/var/www/html docker-php-nginx
+```
+
 [1]: https://github.com/TrafeX/docker-php-nginx
 [2]: https://github.com/nginx-modules/docker-nginx-boringssl
 [3]: https://github.com/codecasts/php-alpine
