@@ -9,8 +9,9 @@ Example PHP-FPM 7.3 & Nginx 1.15.9 setup for Docker, build on [Alpine Linux](htt
 * [Setting up nginx and PHP-FPM in Docker with Unix Sockets][4]: switch to using Unix sockets by modifing nginx.conf
 
 
-nginx.conf
-```
+#### nginx.conf
+
+```nginx 
 http {
   .......
   # site.conf
